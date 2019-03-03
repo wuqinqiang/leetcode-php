@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/100-150/101.md" beforeDir="false" afterPath="$PROJECT_DIR$/100-150/101.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/100-150/104.md" beforeDir="false" afterPath="$PROJECT_DIR$/100-150/104.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/51-100/53.md" beforeDir="false" afterPath="$PROJECT_DIR$/51-100/53.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/51-100/70.md" beforeDir="false" afterPath="$PROJECT_DIR$/51-100/70.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/51-100/88.md" beforeDir="false" afterPath="$PROJECT_DIR$/51-100/88.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,23 +21,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="6" />
-          <entry key="md" value="32" />
+          <entry key="md" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="6" />
-          <entry key="Markdown" value="32" />
+          <entry key="Markdown" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1993" />
+          <entry key="md" value="1995" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1993" />
+          <entry key="Markdown" value="1995" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +72,20 @@
         <entry file="file://$PROJECT_DIR$/100-150/104.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="430">
-                <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/CS-Notes/CS-Notes/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="500">
+                <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -209,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551591095250</updated>
-      <workItem from="1551591100841" duration="15647000" />
+      <workItem from="1551591100841" duration="15902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15647000" />
+    <option name="totallyTimeSpent" value="15902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -248,16 +256,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/CS-Notes/CS-Notes/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="156" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qrcode_for_gh_c194f9d4cdb1_258.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -397,11 +395,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/CS-Notes/CS-Notes/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/100-150/104.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="430">
-            <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
