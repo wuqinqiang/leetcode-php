@@ -4,14 +4,15 @@
 **当前从事php方面的开发,本人空余时间想学习学习数据结构和算法,然后结合php写出具体的解决思路(目前来说,从简单的开始,从解出来开始,这个过程是很漫长的,希望在这个漫长之路,能加入更多的好友),当然我目前是个菜逼,有可能一些题解的不是很优,如果有解的不好的地方,欢迎给出指点意见,谢谢.**
  ****   
 
-  ###算法以及数据库
-###51-100
+  ##算法以及数据库
+  
+**51-100**
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
 - [Leetcode88](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/88.md)
 ****
 
-###101-150
+**101-150**
 - [Leetcode101](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/101.md)
 - [Leetcode104](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/104.md)
 - [Leetcode107](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/107.md)
@@ -19,11 +20,11 @@
 - [Leetcode109](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/109.md)
 ****
 
-###201-250
+**201-250**
 - [Leetcode215](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/215.md)
 ****
 
-###600-700
+**600-700**
 - [Leetcode633](https://github.com/wuqinqiang/Lettcode-php/blob/master/600-700/633.md)
 - [Leetcode680](https://github.com/wuqinqiang/Lettcode-php/blob/master/600-700/680.md)
 ****
@@ -45,10 +46,6 @@
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
 </a> 
 
-<a href="https://github.com/wuqinqiang/">
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/3507cd512b48f57842fcbc4a8c1675c.jpg" width="200px" height="200px">
-</a>
-个人微信
 
 
 
