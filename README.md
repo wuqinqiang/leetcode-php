@@ -42,11 +42,11 @@
 
 <a href="https://github.com/wuqinqiang/">
 公众号
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="150px" height="150px">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
 </a> 
 
 <a href="https://github.com/wuqinqiang/">
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/3507cd512b48f57842fcbc4a8c1675c.jpg" width="150px" height="150px">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/3507cd512b48f57842fcbc4a8c1675c.jpg" width="200px" height="200px">
 </a>
 个人微信
 
