@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/100-200/109.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,36 +22,46 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="5" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="5" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="696" />
+          <entry key="md" value="707" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="696" />
+          <entry key="Markdown" value="707" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="600">
-                <caret line="33" column="134" selection-start-line="33" selection-start-column="134" selection-end-line="33" selection-end-column="134" />
+              <first_editor relative-caret-position="275">
+                <caret line="11" selection-start-line="11" selection-end-line="11" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/100-200/109.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -65,6 +76,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/100-200/109.md" />
       </list>
     </option>
   </component>
@@ -92,6 +104,11 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="100-200" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -107,6 +124,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\laragon\www\leetcode\100-200" />
       <recent name="D:\laragon\laragon\www\leetcode" />
     </key>
   </component>
@@ -132,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551591095250</updated>
-      <workItem from="1551591100841" duration="3752000" />
+      <workItem from="1551591100841" duration="4383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3752000" />
+    <option name="totallyTimeSpent" value="4383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -193,9 +211,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="600">
-            <caret line="33" column="134" selection-start-line="33" selection-start-column="134" selection-end-line="33" selection-end-column="134" />
+          <first_editor relative-caret-position="275">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100-200/109.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
