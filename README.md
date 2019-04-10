@@ -58,7 +58,7 @@
 ****
 
  ### :pencil2:数据结构
- - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数据结构和链表.md)
+ - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
 ****
 ###  人生格言
 **既然决定不了自己的命,那就把握好自己的运**
