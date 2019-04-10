@@ -5,6 +5,10 @@
  ****   
 
  ### :pencil2:算法以及数据库
+ 
+ **0-50**
+ - [Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
+ ****
   
 **51-100**
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
@@ -23,6 +27,7 @@
 - [Leetcode121](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/121.md)
 - [Leetcode122](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/122.md)
 - [Leetcode136](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/136.md)
+- [Leetcode150](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/150.md)
 ****
 
 **151-200**
@@ -38,9 +43,13 @@
 - [Leetcode201](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/201.md)
 - [Leetcode203](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/203.md)
 - [Leetcode204](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/204.md)
+- [Leetcode206](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/206.md)
 - [Leetcode215](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/215.md)
 - [Leetcode217](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/217.md)
+- [Leetcode225](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/225.md)
 - [Leetcode231](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/231.md)
+- [Leetcode232](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/232.md)
+- [Leetcode234](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/234.md)
 ****
 
 **600-700**
@@ -48,7 +57,9 @@
 - [Leetcode680](https://github.com/wuqinqiang/Lettcode-php/blob/master/600-700/680.md)
 ****
 
-
+ ### :pencil2:数据结构
+ - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数据结构和链表.md)
+****
 ###  人生格言
 **既然决定不了自己的命,那就把握好自己的运**
 ****
