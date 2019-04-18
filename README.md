@@ -37,6 +37,7 @@
 - [Leetcode169](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/169.md)
 - [Leetcode172](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/172.md)
 - [Leetcode189](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/189.md)
+- [Leetcode198](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/198.md)
 ****
 
 **201-250**
@@ -47,9 +48,17 @@
 - [Leetcode215](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/215.md)
 - [Leetcode217](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/217.md)
 - [Leetcode225](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/225.md)
+- [Leetcode226](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/226.md)
 - [Leetcode231](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/231.md)
 - [Leetcode232](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/232.md)
 - [Leetcode234](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/234.md)
+****
+
+**251-300**
+- [Leetcode257](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/257.md)
+- [Leetcode258](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/258.md)
+- [Leetcode263](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/263.md)
+- [Leetcode268](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/268.md)
 ****
 
 **600-700**
@@ -59,6 +68,8 @@
 
  ### :pencil2:数据结构
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
+ - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
+ - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
 ****
 ###  人生格言
 **既然决定不了自己的命,那就把握好自己的运**
