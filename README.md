@@ -3,6 +3,12 @@
 
 **当前从事php方面的开发,本人空余时间想学习学习数据结构和算法,然后结合php写出具体的解决思路(目前来说,从简单的开始,从解出来开始,这个过程是很漫长的,希望在这个漫长之路,能加入更多的好友),当然我目前是个菜逼,有可能一些题解的不是很优,如果有解的不好的地方,欢迎给出指点意见,谢谢.**
  ****   
+ 
+ ### :pencil2:数据结构
+ - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
+ - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
+ - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
+****
 
  ### :pencil2:算法以及数据库
  
@@ -66,11 +72,7 @@
 - [Leetcode680](https://github.com/wuqinqiang/Lettcode-php/blob/master/600-700/680.md)
 ****
 
- ### :pencil2:数据结构
- - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
- - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
- - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
-****
+
 ###  人生格言
 **既然决定不了自己的命,那就把握好自己的运**
 ****
