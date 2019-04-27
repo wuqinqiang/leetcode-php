@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/251-300/283.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/251-300/290.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/251-300/292.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/303.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/326.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/342.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/344.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/349.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/350.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/301-400/371.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/arrayTree.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chooseSort.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/deleteTree.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/insertSort.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/listTree.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mergeSort.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/quickSort.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/treeShow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/twoTree.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/冒泡.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/二叉树(1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/冒泡插入选择.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/归并快速排序.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/二叉树(1).md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树(1).md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1223">
-                <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
               </first_editor>
               <second_editor />
             </state>
@@ -142,6 +118,11 @@
             <path>
               <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,15 +182,16 @@
       <workItem from="1554039008905" duration="1004000" />
       <workItem from="1554896069169" duration="3525000" />
       <workItem from="1555599682132" duration="2703000" />
-      <workItem from="1556344056010" duration="3485000" />
+      <workItem from="1556344056010" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31550000" />
+    <option name="totallyTimeSpent" value="31794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="950" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -722,8 +704,8 @@
     <entry file="file://$PROJECT_DIR$/数据结构/二叉树(1).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="213" column="33" selection-start-line="213" selection-start-column="33" selection-end-line="213" selection-end-column="33" />
+          <first_editor relative-caret-position="120">
+            <caret line="98" column="91" selection-start-line="98" selection-start-column="91" selection-end-line="98" selection-end-column="91" />
           </first_editor>
           <second_editor />
         </state>
@@ -732,8 +714,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1223">
-            <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
           </first_editor>
           <second_editor />
         </state>

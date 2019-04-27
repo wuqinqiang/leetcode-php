@@ -8,12 +8,12 @@
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
  - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
  - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
- - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/二叉树(1).md)
+ - [线性结构之二叉树1](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/二叉树(1).md)
 ****
 
  ### :pencil2:算法
  - [冒泡插入选择排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/冒泡插入选择.md)
- - [归并快速排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/归并快速.md)
+ - [归并快速排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/归并快速排序.md)
 ****
 
  ### :pencil2:leetcode题解以及数据库
