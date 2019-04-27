@@ -1,16 +1,22 @@
 
 ## :pencil2:leetcode for PHP  and some sql
 
-**当前从事php方面的开发,本人空余时间想学习学习数据结构和算法,然后结合php写出具体的解决思路(目前来说,从简单的开始,从解出来开始,这个过程是很漫长的,希望在这个漫长之路,能加入更多的好友),当然我目前是个菜逼,有可能一些题解的不是很优,如果有解的不好的地方,欢迎给出指点意见,谢谢.**
+**当前从事php方面的开发,本人空余时间想学习学习数据结构和算法,然后结合php写出具体的解决思路(目前来说,从简单的开始,从解出来开始,这个过程是很漫长的,希望在这个漫长之路,能加入更多的好友),当然可能一些题解的不是很优,如果有解的不好的地方,欢迎给出指点意见,谢谢.**
  ****   
  
  ### :pencil2:数据结构
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
  - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
  - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
+ - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/二叉树(1).md)
 ****
 
- ### :pencil2:算法以及数据库
+ ### :pencil2:算法
+ - [冒泡插入选择排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/冒泡插入选择.md)
+ - [归并快速排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/归并快速.md)
+****
+
+ ### :pencil2:leetcode题解以及数据库
  
  **0-50**
  - [Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
@@ -65,6 +71,19 @@
 - [Leetcode258](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/258.md)
 - [Leetcode263](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/263.md)
 - [Leetcode268](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/268.md)
+- [Leetcode283](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/283.md)
+- [Leetcode290](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/290.md)
+- [Leetcode292](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/292.md)
+****
+
+**301-400**
+- [Leetcode303](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/303.md)
+- [Leetcode326](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/326.md)
+- [Leetcode342](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/342.md)
+- [Leetcode344](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/344.md)
+- [Leetcode349](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/349.md)
+- [Leetcode350](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/350.md)
+- [Leetcode371](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/371.md)
 ****
 
 **600-700**
@@ -79,7 +98,7 @@
 
 ### 关于我
 
-2018年毕业于一般的大学,现在在在杭州一家公司做着后端开发的工作.本人是个库里迷,很喜欢打球,虽然打的并不咋么样,喜欢交朋友,交一些有趣的人,有空还可以面基啊!
+本人是个库里迷,很喜欢打球,虽然打的并不咋么样,喜欢交朋友,交一些有趣的人,有空还可以面基啊!
 
 ****
 ### 联系
