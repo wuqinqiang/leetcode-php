@@ -1,6 +1,9 @@
 
 ## :pencil2:leetcode for PHP  and some sql
 
+**你可能看到题目不是按照顺序刷下来的，中间有可能会断断续续。原因有两点:1.有些题目需要办理会员才能刷，目前刷的比较少不需要去办理2.我是针对性的刷题，比如我现在学习的是树这种结构，那么我就会结合着去刷二叉树这类的题目**
+ ****   
+
 **当前从事php方面的开发,本人空余时间想学习学习数据结构和算法,然后结合php写出具体的解决思路(目前来说,从简单的开始,从解出来开始,这个过程是很漫长的,希望在这个漫长之路,能加入更多的好友),当然可能一些题解的不是很优,如果有解的不好的地方,欢迎给出指点意见,谢谢.**
  ****   
  
@@ -24,7 +27,10 @@
  ****
   
 **51-100**
+- [Leetcode33](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/33.md)
+- [Leetcode35](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/35.md)
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
+- [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/69.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
 - [Leetcode88](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/88.md)
 - [Leetcode94](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/94.md)
@@ -94,9 +100,13 @@
 - [Leetcode371](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/371.md)
 ****
 
-**600-700**
-- [Leetcode633](https://github.com/wuqinqiang/Lettcode-php/blob/master/600-700/633.md)
-- [Leetcode680](https://github.com/wuqinqiang/Lettcode-php/blob/master/600-700/680.md)
+**501-600**
+- [Leetcode513](https://github.com/wuqinqiang/Lettcode-php/blob/master/501-600/513.md)
+****
+
+**601-700**
+- [Leetcode633](https://github.com/wuqinqiang/Lettcode-php/blob/master/601-700/633.md)
+- [Leetcode680](https://github.com/wuqinqiang/Lettcode-php/blob/master/601-700/680.md)
 ****
 
 
