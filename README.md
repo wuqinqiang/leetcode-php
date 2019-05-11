@@ -17,6 +17,7 @@
  ### :pencil2:算法
  - [冒泡插入选择排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/冒泡插入选择.md)
  - [归并快速排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/归并快速排序.md)
+ - [二分查找](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/二分查找.md)
 ****
 
 
