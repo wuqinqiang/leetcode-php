@@ -11,7 +11,7 @@
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
  - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
  - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
- - [线性结构之二叉树1](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/二叉树(1).md)
+ - [数据结构之二叉树1](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/二叉树(1).md)
 ****
 
  ### :pencil2:算法
@@ -24,7 +24,10 @@
  ### :pencil2:leetcode题解以及数据库
  
  **0-50**
- - [Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
+ -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/2.md)
+ -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/3.md)
+ -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/5.md)
+ -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
  ****
   
 **51-100**
@@ -32,6 +35,7 @@
 - [Leetcode35](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/35.md)
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
 - [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/69.md)
+- [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
 - [Leetcode88](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/88.md)
 - [Leetcode94](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/94.md)
@@ -47,6 +51,7 @@
 - [Leetcode110](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/110.md)
 - [Leetcode111](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/111.md)
 - [Leetcode112](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/112.md)
+- [Leetcode112](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/120.md)
 - [Leetcode121](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/121.md)
 - [Leetcode122](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/122.md)
 - [Leetcode136](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/136.md)
