@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/51-100/70.md" beforeDir="false" afterPath="$PROJECT_DIR$/51-100/70.md" afterDir="false" />
-    </list>
+    <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +10,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/0-50/3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -24,24 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/51-100/70.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
+              <first_editor relative-caret-position="231">
                 <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0-50/5.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="8" selection-start-line="8" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,12 +104,12 @@
         <option value="$PROJECT_DIR$/51-100/33.md" />
         <option value="$PROJECT_DIR$/51-100/69.md" />
         <option value="$PROJECT_DIR$/算法/二分查找.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/0-50/2.md" />
         <option value="$PROJECT_DIR$/0-50/3.md" />
         <option value="$PROJECT_DIR$/0-50/5.md" />
         <option value="$PROJECT_DIR$/100-150/120.md" />
         <option value="$PROJECT_DIR$/51-100/70.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -152,11 +150,6 @@
               <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
               <item name="501-600" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,15 +206,16 @@
       <workItem from="1556344056010" duration="3944000" />
       <workItem from="1557146385267" duration="2032000" />
       <workItem from="1557574550119" duration="1659000" />
-      <workItem from="1558190126250" duration="1010000" />
+      <workItem from="1558190126250" duration="1266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36710000" />
+    <option name="totallyTimeSpent" value="36966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="781" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -657,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0-50/2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -728,8 +712,18 @@
     <entry file="file://$PROJECT_DIR$/51-100/70.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
+          <first_editor relative-caret-position="231">
             <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>

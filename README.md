@@ -24,10 +24,10 @@
  ### :pencil2:leetcode题解以及数据库
  
  **0-50**
- -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/2.md)
- -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/3.md)
- -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/5.md)
- -[Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
+ - [Leetcode02](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/2.md)
+ - [Leetcode03](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/3.md)
+ - [Leetcode05](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/5.md)
+ - [Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
  ****
   
 **51-100**
