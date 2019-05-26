@@ -19,6 +19,7 @@
  - [冒泡插入选择排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/冒泡插入选择.md)
  - [归并快速排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/归并快速排序.md)
  - [二分查找](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/二分查找.md)
+ - [动态规划](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/动态规划.md)
 ****
 
 
@@ -37,6 +38,7 @@
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
 - [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/69.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
+- [Leetcode72](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/72.md)
 - [Leetcode88](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/88.md)
 - [Leetcode94](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/94.md)
 - [Leetcode98](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/98.md)
@@ -54,6 +56,7 @@
 - [Leetcode120](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/120.md)
 - [Leetcode121](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/121.md)
 - [Leetcode122](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/122.md)
+- [Leetcode123](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/123.md)
 - [Leetcode136](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/136.md)
 - [Leetcode144](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/144.md)
 - [Leetcode145](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/145.md)
@@ -61,6 +64,7 @@
 ****
 
 **151-200**
+- [Leetcode152](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/152.md)
 - [Leetcode155](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/155.md)
 - [Leetcode167](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/167.md)
 - [Leetcode168](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/168.md)
@@ -93,6 +97,7 @@
 - [Leetcode283](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/283.md)
 - [Leetcode290](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/290.md)
 - [Leetcode292](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/292.md)
+- [Leetcode300](https://github.com/wuqinqiang/Lettcode-php/blob/master/251-300/300.md)
 ****
 
 **301-400**
