@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/100-150/123.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/151-200/152.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/251-300/300.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/51-100/72.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/动态规划.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/151-200/152.md" beforeDir="false" afterPath="$PROJECT_DIR$/151-200/152.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1145">
-                <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+              <first_editor relative-caret-position="-2569">
+                <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,11 +25,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/151-200/152.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1313">
+                <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/动态规划.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="860">
-                <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+              <first_editor relative-caret-position="467">
+                <caret line="253" selection-start-line="253" selection-end-line="253" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,13 +117,13 @@
         <option value="$PROJECT_DIR$/100-150/120.md" />
         <option value="$PROJECT_DIR$/51-100/70.md" />
         <option value="$PROJECT_DIR$/数据结构/散列表.md" />
-        <option value="$PROJECT_DIR$/151-200/152.md" />
         <option value="$PROJECT_DIR$/251-300/300.md" />
         <option value="$PROJECT_DIR$/51-100/72.md" />
         <option value="$PROJECT_DIR$/100-150/123.md" />
         <option value="$PROJECT_DIR$/151-200/167.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/算法/动态规划.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/151-200/152.md" />
       </list>
     </option>
   </component>
@@ -230,12 +236,12 @@
       <workItem from="1557574550119" duration="1659000" />
       <workItem from="1558190126250" duration="1533000" />
       <workItem from="1558236941780" duration="1817000" />
-      <workItem from="1558857717329" duration="1479000" />
+      <workItem from="1558857717329" duration="1662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40529000" />
+    <option name="totallyTimeSpent" value="40712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -646,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/151-200/152.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="27">
-            <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/51-100/72.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -686,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1145">
-            <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/二分查找.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -709,8 +695,28 @@
     <entry file="file://$PROJECT_DIR$/算法/动态规划.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="860">
-            <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <first_editor relative-caret-position="467">
+            <caret line="253" selection-start-line="253" selection-end-line="253" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2569">
+            <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/151-200/152.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1313">
+            <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           </first_editor>
           <second_editor />
         </state>
