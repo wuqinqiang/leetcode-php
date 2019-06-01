@@ -9,9 +9,9 @@
 公众号
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
 个人微信  
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.jpeg" width="200px" height="200px">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.jpeg">
 自习群  
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/zixi.jpeg" width="200px" height="200px">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/zixi.jpeg" >
 
 </a> 
 
