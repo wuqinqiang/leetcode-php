@@ -4,7 +4,7 @@
 ### :pencil2:1.二叉树的前序遍历（leetcode144）
 
 <a href="https://github.com/wuqinqiang/">
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/114.png">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/144.png">
 </a> 
 
 **前序遍历，先访问根结点，然后在访问左子树，最后访问右子树。可以利用栈的特点，这里我结合了队列和栈的特点来实现。先压入树，取出根节点。先把根节点值push到队列中，然后把右子树压入栈中，最后压入左子树。返回队列。当然你可以调整成你想要的实现方式。(只要前中后序顺序理解正确即可)**
@@ -298,7 +298,7 @@ class Solution {
 ### :pencil2:8.判断是否是对称二叉树(leetcode101）
 
 <a href="https://github.com/wuqinqiang/">
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/101.png">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/101.jpg">
 </a> 
 
 **1.两个子节点都是空,那说明他们是对称的返回true**
