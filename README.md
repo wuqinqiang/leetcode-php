@@ -1,11 +1,23 @@
 
 ## :pencil2:leetcode for PHP  and some sql
+  
+**当前从事php方面的开发,空余时间补足数据结构和算法，这才是核心，佛性刷题，不定期更新的日常**
+****
 
-**你可能看到题目不是按照顺序刷下来的，中间有可能会断断续续。原因有两点:1.有些题目需要办理会员才能刷，目前刷的比较少不需要去办理2.我是针对性的刷题，比如我现在学习的是树这种结构，那么我就会结合着去刷二叉树这类的题目**
- ****   
+### 联系
+<a href="https://github.com/wuqinqiang/">
+公众号
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
+个人微信  
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.jeeg" width="200px" height="200px">
+自习群  
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/zixi.jeeg" width="200px" height="200px">
 
-**当前从事php方面的开发,本人空余时间想学习学习数据结构和算法,然后结合php写出具体的解决思路(目前来说,从简单的开始,从解出来开始,这个过程是很漫长的,希望在这个漫长之路,能加入更多的好友),当然可能一些题解的不是很优,如果有解的不好的地方,欢迎给出指点意见,谢谢.**
- ****   
+</a> 
+
+
+
+ *****
  
  ### :pencil2:数据结构
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
@@ -36,6 +48,7 @@
 - [Leetcode33](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/33.md)
 - [Leetcode35](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/35.md)
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
+- [Leetcode66](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/66.md)
 - [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/69.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
 - [Leetcode72](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/72.md)
@@ -46,6 +59,7 @@
 
 **101-150**
 - [Leetcode101](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/101.md)
+- [Leetcode102](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/102.md)
 - [Leetcode104](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/104.md)
 - [Leetcode107](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/107.md)
 - [Leetcode108](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/108.md)
@@ -53,6 +67,8 @@
 - [Leetcode110](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/110.md)
 - [Leetcode111](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/111.md)
 - [Leetcode112](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/112.md)
+- [Leetcode118](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/118.md)
+- [Leetcode119](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/119.md)
 - [Leetcode120](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/120.md)
 - [Leetcode121](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/121.md)
 - [Leetcode122](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/122.md)
@@ -129,13 +145,7 @@
 
 本人是个库里迷,很喜欢打球,虽然打的并不咋么样,喜欢交朋友,交一些有趣的人,有空还可以面基啊!
 
-****
-### 联系
 
-<a href="https://github.com/wuqinqiang/">
-公众号
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
-</a> 
 
 
 
