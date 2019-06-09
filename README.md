@@ -15,8 +15,11 @@
 
 </a> 
 
-### 联系
-**使用swoole+vue+redis+mysql搭建im**
+****
+
+
+### 基于swoole的im聊天室Demo
+**使用swoole+vue+redis+mysql搭建**
 
 **目前支持单聊，群聊，发送图片，发送大文件，没咋么去测试，也没进行qps测试，后续再完善，如果发现bug，请指教，谢谢，目前服务器用的是最低配置**
 
@@ -28,7 +31,7 @@
 
 **放张图片压压惊**
 
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/im.png" width="200px" height="200px">
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/im.png" width="300px" height="300px">
 
 
 
