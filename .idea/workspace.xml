@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae31ae1-b5e7-4ff7-9c6f-fb87708e772d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="680">
-                <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <first_editor relative-caret-position="143">
+                <caret line="20" selection-start-line="20" selection-end-line="37" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/数据结构/Leetcode经典二叉树题目集合.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="455">
-                <caret line="613" lean-forward="true" selection-start-line="613" selection-end-line="613" />
+              <first_editor relative-caret-position="4172">
+                <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,9 +106,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-60" />
+    <option name="y" value="36" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -129,22 +131,12 @@
             <path>
               <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
-              <item name="100-150" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
               <item name="501-600" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-php" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,15 +151,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laragon\laragon\www\leetcode\600-700" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/数据结构" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/数据结构" />
       <recent name="$PROJECT_DIR$/100-150" />
       <recent name="$PROJECT_DIR$/51-100" />
       <recent name="$PROJECT_DIR$/算法" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\laragon\laragon\www\leetcode\600-700" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,17 +195,20 @@
       <workItem from="1558190126250" duration="1533000" />
       <workItem from="1558236941780" duration="1817000" />
       <workItem from="1558857717329" duration="2001000" />
-      <workItem from="1559393888255" duration="3043000" />
+      <workItem from="1559393888255" duration="3209000" />
+      <workItem from="1559404112809" duration="212000" />
+      <workItem from="1560098021380" duration="1056000" />
+      <workItem from="1560129327214" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44094000" />
+    <option name="totallyTimeSpent" value="45530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28061768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -668,21 +663,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Leetcode经典二叉树题目集合.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="613" lean-forward="true" selection-start-line="613" selection-end-line="613" />
+          <first_editor relative-caret-position="143">
+            <caret line="20" selection-start-line="20" selection-end-line="37" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/数据结构/Leetcode经典二叉树题目集合.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="680">
-            <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <first_editor relative-caret-position="4172">
+            <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
