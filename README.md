@@ -16,26 +16,6 @@
 </a> 
 
 ****
-
-
-### 基于swoole的im聊天室Demo
-**使用swoole+vue+redis+mysql搭建**
-
-**目前支持单聊，群聊，发送图片，发送大文件，没咋么去测试，也没进行qps测试，后续再完善，如果发现bug，请指教，谢谢，目前服务器用的是最低配置**
-
-**后续可能会把功能全部完善，整理一下建一个新的仓库**
-
-**在线体验地址: - [聊天室Demo演示](http://chat.aabbccm.com)**
-
-**账号wuqinqiang,test1,test2,test3,test4都可以，密码123456**
-
-**放张图片压压惊**
-
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/im.png" width="300px" height="300px">
-
-
-
- *****
  
  ### :pencil2:数据结构
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
@@ -154,6 +134,26 @@
 - [Leetcode633](https://github.com/wuqinqiang/Lettcode-php/blob/master/601-700/633.md)
 - [Leetcode680](https://github.com/wuqinqiang/Lettcode-php/blob/master/601-700/680.md)
 ****
+
+
+### 基于swoole的im聊天室Demo
+**使用swoole+vue+redis+mysql搭建**
+
+**目前支持单聊，群聊，发送图片，发送大文件，没咋么去测试，也没进行qps测试，后续再完善，如果发现bug，请指教，谢谢，目前服务器用的是最低配置**
+
+**后续可能会把功能全部完善，整理一下建一个新的仓库**
+
+**在线体验地址: - [聊天室Demo演示](http://chat.aabbccm.com)**
+
+**账号wuqinqiang,test1,test2,test3,test4都可以，密码123456**
+
+**放张图片压压惊**
+
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/im.png" width="300px" height="300px">
+
+
+
+ *****
 
 
 ###  人生格言
