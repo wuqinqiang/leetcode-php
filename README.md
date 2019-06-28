@@ -3,6 +3,8 @@
   
 **当前从事php方面的开发,空余时间补足数据结构和算法，这才是核心，佛性刷题，不定期更新的日常**
 ****
+###  人生格言
+**既然决定不了自己的命,那就把握好自己的运**
 
 ### 联系
 <a href="https://github.com/wuqinqiang/">
@@ -10,9 +12,8 @@
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
 个人微信  
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.png" width="200px" height="200px">
-自习群  
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/zixi.png" width="200px" height="200px">
-
+如果觉得对你有帮助，欢迎打赏
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/pay.jpeg" width="200px" height="200px">
 </a> 
 
 ****
@@ -40,8 +41,15 @@
  - [Leetcode02](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/2.md)
  - [Leetcode03](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/3.md)
  - [Leetcode05](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/5.md)
+ - [Leetcode07](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/7.md)
  - [Leetcode09](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/9.md)
+ - [Leetcode14](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/14.md)
+ - [Leetcode16](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/16.md)
  - [Leetcode17](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/17.md)
+ - [Leetcode18](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/18.md)
+ - [Leetcode19](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/19.md)
+ - [Leetcode20](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/20.md)
+ - [Leetcode21](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/21.md)
  - [Leetcode22](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/22.md)
  - [Leetcode33](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/33.md)
  - [Leetcode35](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/35.md)
@@ -60,6 +68,7 @@
 - [Leetcode72](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/72.md)
 - [Leetcode77](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/77.md)
 - [Leetcode78](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/78.md)
+- [Leetcode79](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/79.md)
 - [Leetcode88](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/88.md)
 - [Leetcode94](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/94.md)
 - [Leetcode98](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/98.md)
@@ -68,6 +77,7 @@
 **101-150**
 - [Leetcode101](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/101.md)
 - [Leetcode102](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/102.md)
+- [Leetcode103](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/103.md)
 - [Leetcode104](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/104.md)
 - [Leetcode107](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/107.md)
 - [Leetcode108](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/108.md)
@@ -145,28 +155,6 @@
 ****
 
 
-### 基于swoole的im聊天室Demo
-**使用swoole+vue+redis+mysql搭建**
-
-**目前支持单聊，群聊，发送图片，发送大文件，没咋么去测试，也没进行qps测试，后续再完善，如果发现bug，请指教，谢谢，目前服务器用的是最低配置**
-
-**后续可能会把功能全部完善，整理一下建一个新的仓库**
-
-**在线体验地址: - [聊天室Demo演示](http://chat.aabbccm.com)**
-
-**账号wuqinqiang,test1,test2,test3,test4都可以，密码123456**
-
-**放张图片压压惊**
-
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/im.png" width="300px" height="300px">
-
-
-
- *****
-
-
-###  人生格言
-**既然决定不了自己的命,那就把握好自己的运**
 ****
 
 ### 关于我
