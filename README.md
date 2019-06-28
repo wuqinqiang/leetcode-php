@@ -12,7 +12,7 @@
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
 个人微信  
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.png" width="200px" height="200px">
-如果觉得对你有帮助，欢迎打赏
+赏金
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/pay.jpeg" width="200px" height="200px">
 </a> 
 
