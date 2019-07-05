@@ -1,10 +1,10 @@
 
-## :pencil2:leetcode for PHP  and some sql
+## :pencil2:leetcode for PHP 
   
-**当前从事php方面的开发,空余时间补足数据结构和算法，这才是核心，佛性刷题，不定期更新的日常**
+**当前从事php方面的开发,热爱开源，空余时间花时间学习数据结构和算法，底层核心知识才能决定一个人的深度，佛性刷题，定期更新的日常**
 ****
 ###  人生格言
-**既然决定不了自己的命,那就把握好自己的运**
+**生时何必久睡，死后自然长眠**
 
 ### 联系
 <a href="https://github.com/wuqinqiang/">
@@ -12,10 +12,6 @@
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
 个人微信  
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.png" width="200px" height="200px">
-赏金
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/pay.jpeg" width="200px" height="200px">
-</a> 
-
 ****
  
  ### :pencil2:数据结构
