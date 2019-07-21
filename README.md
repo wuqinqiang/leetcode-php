@@ -53,15 +53,18 @@
  - [Leetcode40](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/40.md)
  - [Leetcode46](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/46.md)
  - [Leetcode47](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/47.md)
+ - [Leetcode49](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/49.md)
  ****
   
 **51-100**
 
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
+- [Leetcode55](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/55.md)
 - [Leetcode66](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/66.md)
 - [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/69.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
 - [Leetcode72](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/72.md)
+- [Leetcode73](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/73.md)
 - [Leetcode77](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/77.md)
 - [Leetcode78](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/78.md)
 - [Leetcode79](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/79.md)
@@ -95,6 +98,8 @@
 
 **151-200**
 - [Leetcode152](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/152.md)
+- [Leetcode153](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/153.md)
+- [Leetcode154](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/154.md)
 - [Leetcode155](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/155.md)
 - [Leetcode167](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/167.md)
 - [Leetcode168](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/168.md)
