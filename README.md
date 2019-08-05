@@ -1,5 +1,5 @@
 
-## :pencil2:leetcode for PHP 
+## :pencil2:Leetcode for PHP 
   
 **当前从事php方面的开发,热爱开源，空余时间花时间学习数据结构和算法，底层核心知识才能决定一个人的深度，佛性刷题，定期更新的日常**
 ****
@@ -59,7 +59,10 @@
 **51-100**
 
 - [Leetcode53](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/53.md)
+- [Leetcode54](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/54.md)
 - [Leetcode55](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/55.md)
+- [Leetcode56](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/56.md)
+- [Leetcode59](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/59.md)
 - [Leetcode66](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/66.md)
 - [Leetcode69](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/69.md)
 - [Leetcode70](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/70.md)
@@ -70,6 +73,7 @@
 - [Leetcode79](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/79.md)
 - [Leetcode88](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/88.md)
 - [Leetcode94](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/94.md)
+- [Leetcode96](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/96.md)
 - [Leetcode98](https://github.com/wuqinqiang/Lettcode-php/blob/master/51-100/98.md)
 ****
 
@@ -115,6 +119,7 @@
 - [Leetcode204](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/204.md)
 - [Leetcode206](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/206.md)
 - [Leetcode215](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/215.md)
+- [Leetcode216](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/216.md)
 - [Leetcode217](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/217.md)
 - [Leetcode225](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/225.md)
 - [Leetcode226](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/226.md)
