@@ -3,4 +3,4 @@
 *.js linguist-language=php 
 *.xml linguist-language=php
 *.css linguist-language=php
-
+*.md  linguist-language=php
