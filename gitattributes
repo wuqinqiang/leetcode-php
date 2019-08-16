@@ -1,6 +1,6 @@
-*.yml linguist-language=php
-*.html linguist-language=php 
-*.js linguist-language=php 
+*.yml linguist-language=PHP
+*.html linguist-language=PHP 
+*.js linguist-language=PHP
 *.xml linguist-language=php
 *.css linguist-language=php
-*.md  linguist-language=php
+*.md  linguist-language=PHP
