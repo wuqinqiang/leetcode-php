@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://118.31.19.191:8888/files -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="renderer" content="webkit">
+                <title>宝塔Linux面板</title>
+                <link rel="shortcut icon" href="http://118.31.19.191:8888/static/favicon.ico" type="image/x-icon">
+                <link href="./宝塔Linux面板_files/bootstrap.min.css" rel="stylesheet">
+                <link href="./宝塔Linux面板_files/site.css" rel="stylesheet">
+                <link href="./宝塔Linux面板_files/codemirror.css" rel="stylesheet">
+                <!--[if lte IE 9]>
+                <script src="/static/js/requestAnimationFrame.js"></script>
+                <![endif]-->
+        <link rel="stylesheet" href="./宝塔Linux面板_files/layer.css" id="layuicss-skinlayercss"></head>
+        <body style="">
+                <div class="bt-warp bge6">
+                        <div id="container" class="container-fluid">
+                                <div class="sidebar-scroll" style="position: fixed; top: 0px;">
+                                        <div class="sidebar-auto">
+                                                <div id="task" class="task cw" onclick="messagebox()">0</div>
+                                                <h3 class="mypcip"><span class="f14 cw">118.31.19.191</span></h3>
+                                                <ul class="menu">
+                                                        <li id="memuA"> <a class="menu_home" href="http://118.31.19.191:8888/">首页</a></li>
+                                                        <li id="memuAsite"><a class="menu_web" href="http://118.31.19.191:8888/site">网站</a></li>
+                                                        <li id="memuAftp"><a class="menu_ftp" href="http://118.31.19.191:8888/ftp">FTP</a></li>
+                                                        <li id="memuAdatabase"><a class="menu_data" href="http://118.31.19.191:8888/database">数据库</a></li>
+                                                        <li id="memuAcontrol"><a class="menu_control" href="http://118.31.19.191:8888/control">监控</a></li>
+                                                        <li id="memuAfirewall"><a class="menu_firewall" href="http://118.31.19.191:8888/firewall">安全</a></li>
+                                                        <li id="memuAfiles" class="current"><a class="menu_folder" href="http://118.31.19.191:8888/files">文件</a></li>
+                                                        <li id="memuAcrontab"><a class="menu_day" href="http://118.31.19.191:8888/crontab">计划任务</a></li>
+                                                        <li id="memuAsoft"><a class="menu_soft" href="http://118.31.19.191:8888/soft">软件管理</a><span class="softnum">1</span></li>
+                                                        <li id="memuAconfig"><a class="menu_set" href="http://118.31.19.191:8888/config">面板设置</a></li>
+                                                        <li><a class="menu_exit" href="javascript:;" id="dologin">退出</a></li>
+                                                </ul>
+                                                <div id="newbtpc"></div>
+                                                <div class="btpc-plus" onclick="bindBTPanel(0,&#39;b&#39;)">+</div>
+                                        </div>
+                                </div>
+                                <a style="display: none;" id="defaultPath">/www/wwwroot</a>
+                                <script src="./宝塔Linux面板_files/jquery-1.10.2.min.js"></script>
+                                <script src="./宝塔Linux面板_files/bootstrap.min.js"></script>
+                                <script src="./宝塔Linux面板_files/lan.js"></script>
+                                <script src="./宝塔Linux面板_files/layer.js"></script>
+                                <script src="./宝塔Linux面板_files/jquery.fly.min.js"></script>
+                                <script src="./宝塔Linux面板_files/public.js"></script>
+                                <div class="main-content" style="min-height: 912px;">
+        <div class="container-fluid" style="padding-bottom:50px">
+                <div class="file-box bgw mtb15" style="position:relative; padding-top:110px">
+                        <div id="tipTools" class="plr15" style="width: 1710px;">
+                                <div class="ptb15">
+                                        <div class="clearfix">
+                                                <div class="pull-left">
+                                                        <button id="backBtn" class="backBtn btn btn-default btn-sm glyphicon glyphicon-arrow-left pull-left" title="后退" onclick="BackDir()"></button>
+                                                        <button class="backBtn refreshBtn btn btn-default btn-sm glyphicon glyphicon-refresh pull-right" title="刷新" style="margin-left:-1px;"></button>
+                                                        <span id="DirPathPlace" class="pull-left"><input id="fileInputPath" type="text" style="width: 1022px;"></span>
+                                                        <span id="PathPlaceBtn" class="pull-left" style="width: 1012px;"><div style="width:1200px;height:26px"><ul style="left: 0px;"><li><a title="/">根目录</a></li><li><a title="/www/">www</a></li><li><a title="/www/wwwroot/">wwwroot</a></li><li><a title="/www/wwwroot/api.tongxianlife.com/">api.tongxianlife.com</a></li><li><a title="/www/wwwroot/api.tongxianlife.com/routes/">routes</a></li></ul></div></span>
+                                                </div>
+                                                <div class="pull-left mlr15" style="line-height:26px"><span id="DirInfo">(共0个目录与0个文件,大小:<font id="pathSize">7.46 KB<a class="btlink ml5" onclick="GetPathSize()">获取</a></font>)</span></div>
+                                                <div class="search pull-right" style="position: absolute; top: 6px; right: 5px;">
+                                                        <form target="hid" onsubmit="GetFiles(1)">
+                                                                <input type="text" id="SearchValue" class="ser-text pull-left" placeholder="">
+                                                                <button type="button" class="ser-sub pull-left" onclick="GetFiles(1)"></button>
+                                                        </form>
+                                                        <iframe name="hid" id="hid" style="display:none" src="./宝塔Linux面板_files/saved_resource.html"></iframe>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="clearfix ptb10">
+                                        <button class="btn btn-default btn-sm pull-left" onclick="UploadFiles()">上传</button>
+                                        <button class="btn btn-default btn-sm pull-left" onclick="DownloadFile()" title="下载文件到服务器" style="margin:0 5px">远程下载</button>
+                                        <span id="BarTools"><div class="btn-group">						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">						新建 <span class="caret"></span>						</button>						<ul class="dropdown-menu">						<li><a href="javascript:CreateFile(0,&#39;%2Fwww%2Fwwwroot%2Fapi.tongxianlife.com%2Froutes&#39;);">新建空白文件</a></li>						<li><a href="javascript:CreateDir(0,&#39;%2Fwww%2Fwwwroot%2Fapi.tongxianlife.com%2Froutes&#39;);">新建目录</a></li>						</ul>						</div> <button onclick="javascript:BackDir();" class="btn btn-default btn-sm glyphicon glyphicon-arrow-left" title="返回上一级"></button> <button onclick="javascript:GetFiles(&#39;/www/wwwroot/api.tongxianlife.com/routes&#39;);" class="btn btn-default btn-sm glyphicon glyphicon-refresh" title="刷新"></button> <button onclick="ExecShell()" title="终端" type="button" class="btn btn-default btn-sm"><em class="ico-cmd"></em></button></span>
+                                        <span id="Batch" style="background-color:#fff;position:absolute;right:190px;z-index:10"></span>
+                                        <span id="comlist" class="comlist"><span onclick="GetFiles(&#39;/&#39;)"><span class="glyphicon glyphicon-hdd"></span>&nbsp;根目录(24G)</span><span id="recycle_bin" onclick="Recycle_bin(&#39;open&#39;)" title="回收站" style="position: absolute; border-color: #ccc; right: 77px;"><span class="glyphicon glyphicon-trash"></span>&nbsp;回收站</span></span>
+                                        <div class="btn-group btn-group-sm pull-right" style="margin-right:5px;">
+                                                <button id="set_icon" title="图标排列" type="button" class="btn btn-default">
+                                                        <i class="glyphicon glyphicon-th"></i>
+                                                </button>
+                                                <button id="set_list" title="列表排列" type="button" class="btn btn-default active">
+                                                        <i class="glyphicon glyphicon-th-list"></i>
+                                                </button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="divtable pd15 ui-selectable" id="fileCon"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="table table-hover">							<thead>								<tr class="ui-selectee">									<th width="30"><input type="checkbox" id="setBox" placeholder=""></th>									<th>文件名</th>									<th>大小</th>									<th>修改时间</th>									<th>权限</th>									<th>所有者</th>									<th style="text-align: right;" width="330">操作</th>								</tr>							</thead>							<tbody id="filesBody" class="list-list ui-selectable"><tr class="folderBoxTr ui-selectee" data-path="/www/wwwroot/api.tongxianlife.com/routes/api.php" filetype="api.php"><td><input type="checkbox" name="id" value="api.php"></td>						<td class="column-name"><span class="ico ico-php"></span><a class="text" title="api.php">api.php</a></td>						<td>5.46 KB</td>						<td>2019/08/15 11:07:39</td>						<td>755</td>						<td>www</td>						<td class="editmenu">						<span><a class="btlink" href="javascript:;" onclick="CopyFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;)">复制</a> | 						<a class="btlink" href="javascript:;" onclick="CutFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;)">剪切</a> | 						<a class="btlink" href="javascript:;" onclick="ReName(0,&#39;api.php&#39;)">重命名</a> | 						<a class="btlink" href="javascript:SetChmod(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;);">权限</a> | 						<a class="btlink" href="javascript:Zip(&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;);">压缩</a> | 						<a class="btlink" href="javascript:;" onclick="OnlineEditFile(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;)">编辑</a> | <a class="btlink" href="javascript:;" onclick="GetFileBytes(&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;,5586)">下载</a> | 						<a class="btlink" href="javascript:;" onclick="DeleteFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/api.php&#39;)">删除</a>						</span></td></tr><tr class="folderBoxTr ui-selectee" data-path="/www/wwwroot/api.tongxianlife.com/routes/channels.php" filetype="channels.php"><td><input type="checkbox" name="id" value="channels.php"></td>						<td class="column-name"><span class="ico ico-php"></span><a class="text" title="channels.php">channels.php</a></td>						<td>524 B</td>						<td>2019/04/08 09:24:22</td>						<td>755</td>						<td>www</td>						<td class="editmenu">						<span><a class="btlink" href="javascript:;" onclick="CopyFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;)">复制</a> | 						<a class="btlink" href="javascript:;" onclick="CutFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;)">剪切</a> | 						<a class="btlink" href="javascript:;" onclick="ReName(0,&#39;channels.php&#39;)">重命名</a> | 						<a class="btlink" href="javascript:SetChmod(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;);">权限</a> | 						<a class="btlink" href="javascript:Zip(&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;);">压缩</a> | 						<a class="btlink" href="javascript:;" onclick="OnlineEditFile(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;)">编辑</a> | <a class="btlink" href="javascript:;" onclick="GetFileBytes(&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;,524)">下载</a> | 						<a class="btlink" href="javascript:;" onclick="DeleteFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/channels.php&#39;)">删除</a>						</span></td></tr><tr class="folderBoxTr ui-selectee" data-path="/www/wwwroot/api.tongxianlife.com/routes/console.php" filetype="console.php"><td><input type="checkbox" name="id" value="console.php"></td>						<td class="column-name"><span class="ico ico-php"></span><a class="text" title="console.php">console.php</a></td>						<td>571 B</td>						<td>2019/04/08 09:24:22</td>						<td>755</td>						<td>www</td>						<td class="editmenu">						<span><a class="btlink" href="javascript:;" onclick="CopyFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;)">复制</a> | 						<a class="btlink" href="javascript:;" onclick="CutFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;)">剪切</a> | 						<a class="btlink" href="javascript:;" onclick="ReName(0,&#39;console.php&#39;)">重命名</a> | 						<a class="btlink" href="javascript:SetChmod(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;);">权限</a> | 						<a class="btlink" href="javascript:Zip(&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;);">压缩</a> | 						<a class="btlink" href="javascript:;" onclick="OnlineEditFile(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;)">编辑</a> | <a class="btlink" href="javascript:;" onclick="GetFileBytes(&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;,571)">下载</a> | 						<a class="btlink" href="javascript:;" onclick="DeleteFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/console.php&#39;)">删除</a>						</span></td></tr><tr class="folderBoxTr ui-selectee" data-path="/www/wwwroot/api.tongxianlife.com/routes/web.php" filetype="web.php"><td><input type="checkbox" name="id" value="web.php"></td>						<td class="column-name"><span class="ico ico-php"></span><a class="text" title="web.php">web.php</a></td>						<td>960 B</td>						<td>2019/07/04 10:23:00</td>						<td>755</td>						<td>www</td>						<td class="editmenu">						<span><a class="btlink" href="javascript:;" onclick="CopyFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;)">复制</a> | 						<a class="btlink" href="javascript:;" onclick="CutFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;)">剪切</a> | 						<a class="btlink" href="javascript:;" onclick="ReName(0,&#39;web.php&#39;)">重命名</a> | 						<a class="btlink" href="javascript:SetChmod(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;);">权限</a> | 						<a class="btlink" href="javascript:Zip(&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;);">压缩</a> | 						<a class="btlink" href="javascript:;" onclick="OnlineEditFile(0,&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;)">编辑</a> | <a class="btlink" href="javascript:;" onclick="GetFileBytes(&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;,960)">下载</a> | 						<a class="btlink" href="javascript:;" onclick="DeleteFile(&#39;/www/wwwroot/api.tongxianlife.com/routes/web.php&#39;)">删除</a>						</span></td></tr></tbody>						</table></div>
+                        <div class="dataTables_paginate paging_bootstrap pagination plr15" style="position: relative; top: -15px;">
+                                <ul id="filePage" class="page"><div><span class="Pcurrent">1</span><span class="Pnumber">1/1</span><span class="Pline">从1-4条</span><span class="Pcount" style="left: 16px;">共4条数据</span><span class="Pcount-item">每页<select style="margin-left: 3px;margin-right: 3px;border:#ddd 1px solid" class="showRow"><option value="100" selected="">100</option><option value="200">200</option><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option></select>条</span></div></ul>
+                        </div>
+                </div>
+        </div>
+</div>
+</div>
+<ul id="rmenu" class="dropdown-menu" style="display:none">
+        <li onclick="javascript:Batch(1);"><a style="cursor: pointer;">复制</a></li>
+        <li onclick="javascript:Batch(2);"><a style="cursor: pointer;">剪切</a></li>
+        <li onclick="javascript:Batch(5);"><a style="cursor: pointer;">压缩</a></li>
+        <li onclick="javascript:Batch(3);"><a style="cursor: pointer;">权限</a></li>
+        <li onclick="javascript:Batch(4);"><a style="cursor: pointer;">删除</a></li>
+</ul>
+<script src="./宝塔Linux面板_files/jquery-ui.min.js"></script>
+<script src="./宝塔Linux面板_files/jquery.contextify.min.js"></script>
+<script src="./宝塔Linux面板_files/files.js"></script>
+<script src="./宝塔Linux面板_files/upload.js"></script>
+<script type="text/javascript">
+        setTimeout(function(){
+        GetDisk();
+},500);
+var xPath = getCookie('Path');
+        setTimeout(function(){
+                GetFiles((xPath!=undefined?xPath:'/www/wwwroot'));
+        },800);
+        
+        PathPlaceBtn((xPath!=undefined?xPath:'/www/wwwroot'));
+        setCookie('uploadSize',1024 * 1024 * 1024);
+        if(getCookie('rank') == undefined || getCookie('rank') == null){
+                setCookie('rank','a');
+        }
+        $("#set_icon").click(function(){
+                setCookie('rank','b');
+                $(this).addClass("active");
+                $("#set_list").removeClass("active");
+                GetFiles(getCookie('Path'));
+        });
+        $("#set_list").click(function(){
+                setCookie('rank','a');
+                $(this).addClass("active");
+                $("#set_icon").removeClass("active");
+                GetFiles(getCookie('Path'));
+        })
+        $(".refreshBtn").click(function(){
+                GetFiles(getCookie('Path'));
+        })
+</script>
+
+                                <div class="footer bgw">宝塔Linux面板 ©2014-2017 宝塔 (bt.cn)<a style="margin-left:20px;color:#20a53a;" href="http://www.bt.cn/bbs" target="_blank">问题求助|产品建议请上宝塔论坛</a><a style="margin-left:20px;color:#20a53a;" href="http://docs.bt.cn/424204" target="_blank">《使用手册》</a></div></div>
+                        
+                
+        
+        <script src="./宝塔Linux面板_files/jquery.zclip.min.js"></script>
+        <script src="./宝塔Linux面板_files/codemirror.js"></script>
+        <script src="./宝塔Linux面板_files/editAll.js"></script>
+        <script src="./宝塔Linux面板_files/modeAll.js"></script>
+        <script src="./宝塔Linux面板_files/dialog.js"></script>
+        <script src="./宝塔Linux面板_files/search.js"></script>
+        <script src="./宝塔Linux面板_files/annotatescrollbar.js"></script>
+        <script src="./宝塔Linux面板_files/jquery.qrcode.min.js"></script>
+        <script type="text/javascript">
+                $("#setBox").click(function() {
+                        if($(this).prop("checked")){
+                                $("input[name=id]").prop("checked", true)
+                        }else{
+                                $("input[name=id]").prop("checked", false)
+                        }
+                });
+                setCookie('order','id desc');
+        </script>
+
+<div class="layui-layer-move"></div><div class="layui-layer-shade" id="layui-layer-shade4" times="4" style="z-index:19891017; background-color:#000; opacity:0.3; filter:alpha(opacity=30);"></div><div class="layui-layer layui-layer-page  layer-anim-05" id="layui-layer4" type="page" times="4" showtime="0" contype="string" style="z-index: 19891018; width: 90%; height: 90%; top: 47.5px; left: 96px;"><div class="layui-layer-title" style="cursor: move;">在线编辑[/www/wwwroot/api.tongxianlife.com/routes/api.php]</div><div id="" class="layui-layer-content" style="height: 814px;"><form class="bt-form pd20 pb70"><div class="line"><p style="color:red;margin-bottom:10px">提示：Ctrl+F 搜索关键字，Ctrl+G 查找下一个，Ctrl+S 保存，Ctrl+Shift+R 查找替换!			<select class="bt-input-text" name="encoding" style="width: 74px;position: absolute;top: 31px;right: 19px;height: 22px;z-index: 9999;border-radius: 0;"><option value="utf-8" selected="">utf-8</option><option value="GBK">GBK</option><option value="GB2312">GB2312</option><option value="BIG5">BIG5</option></select></p><textarea class="mCustomScrollbar bt-input-text" id="textBody" style="width: 100%; margin: 0px auto; line-height: 1.8; position: relative; top: 10px; height: 746.9px; display: none;" value="">&lt;?php
+
+use Illuminate\Http\Request;
+
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
+|
+*/
+
+Route::get('foo', function () {
+    return 'Hello World';
+});
+
+
+// 后台接口
+Route::prefix('admin')-&gt;namespace('Admin')-&gt;group(function () {
+
+    // 登录
+    Route::post('authorizations', 'AuthorizationsController@store');
+    // 刷新
+    Route::put('authorizations/current', 'AuthorizationsController@update');
+    // 删除
+    Route::delete('authorizations/current', 'AuthorizationsController@destroy');
+
+
+    Route::middleware(['auth:api', 'scope:system-admin'])-&gt;group(function () {
+
+        // 图片上传
+        Route::post('image', 'UsersController@image');
+
+        Route::get('admins', 'AdminsController@index');
+        Route::post('admins', 'AdminsController@store');
+        Route::post('admins/{user}', 'AdminsController@assignAdminRole');
+        Route::delete('admins/{user}', 'AdminsController@destroy');
+
+        // 用户管理
+        Route::get('users', 'UsersController@index');
+        Route::get('users/{user}', 'UsersController@show');
+        Route::patch('users/{user}', 'UsersController@update');
+        Route::delete('users/{user}', 'UsersController@destroy');
+
+
+        //商品管理
+        Route::apiResource('category', 'CategoryController');
+        Route::post('product/{product}/sale', 'ProductController@changeSale');
+        Route::apiResource('product', 'ProductController');
+
+        //订单管理
+        Route::get('order', 'OrderController@index');
+        Route::get('order/{order}', 'OrderController@show');
+
+        //发货
+        Route::post('order/{order}/ship', 'OrderController@goShip');
+        //处理售后
+        Route::post('order/{order}/handle', 'OrderController@handleRefund');
+
+
+        // 快递单号查询快递信息
+        Route::post('express', 'ExpressController@index');
+        // 用户订单order的id查询快递信息
+        Route::get('express/{order}', 'ExpressController@show');
+
+        Route::post('activity', 'ActivityController@store');
+        Route::get('activity', 'ActivityController@index');
+        Route::get('activity/{activitie}', 'ActivityController@show');
+        Route::patch('activity/{activitie}', 'ActivityController@update');
+        Route::delete('activity/{activitie}', 'ActivityController@destroy');
+
+        // 运费模板
+        Route::post('template', 'TemplateController@store');
+        Route::get('template', 'TemplateController@index');
+        Route::get('template/{template}', 'TemplateController@show');
+        Route::patch('template/{template}', 'TemplateController@update');
+        Route::delete('template/{template}', 'TemplateController@destroy');
+
+        // 提现订单
+        Route::get('withdraw', 'WithdrawsController@index');
+        Route::patch('withdraw/{withdraw}', 'WithdrawsController@update');
+
+        // 地区查询
+        Route::get('area', 'AreaController@index');
+
+        //代理商模块
+        Route::get('agents', 'AgentsController@index');
+        Route::post('agents', 'AgentsController@store');
+        Route::patch('agents/{agents}', 'AgentsController@update');
+        //更新用户代理商等级
+        Route::patch('agents/user/{id}', 'AgentsController@userAgent');
+    });
+});
+
+
+// 前台用户
+Route::prefix('index')-&gt;namespace('Index')-&gt;group(function () {
+
+    // 本地测试模拟登录
+    Route::post('login', 'LoginController@login');
+
+    // 快递单号查询快递信息
+    Route::post('express', 'ExpressController@index');
+
+
+    //支付回调
+    Route::any('notify', 'OrdersController@notify');
+        Route::get('category', 'CategoryController@index');
+
+    Route::middleware('auth:api')-&gt;group(function () {
+        //下单
+        Route::get('order', 'OrderController@index');
+        Route::post('order', 'OrderController@store');
+        Route::get('order/{order}', 'OrderController@show');
+        Route::post('order/{order}/close', 'OrderController@closeOrder');
+        Route::post('order/{order}/take', 'OrderController@takeOver');
+        //申请售后
+        Route::post('order/{order}/refund', 'OrderController@applyRefund');
+        Route::post('order/{order}/review', 'OrderController@review');
+        //同意退货退款上传快递凭证
+        Route::post('order/{order}/voucher', 'OrderController@voucher');
+
+        //商品
+        Route::get('product', 'ProductController@index');
+        Route::get('product/{product}', 'ProductController@show');
+        Route::get('product/{product}/sku', 'ProductController@skuDetail');
+
+
+
+        //发起支付
+        Route::post('pay', 'OrdersController@pay');
+
+
+        Route::get('address', 'UserAddressesController@index');
+
+        // 设置收货地址
+        Route::get('setAddress', 'UserAddressesController@setting');
+        Route::get('address/{address}', 'UserAddressesController@show');
+        Route::post('address', 'UserAddressesController@store');
+        Route::patch('address/{address}', 'UserAddressesController@update');
+        Route::delete('address/{address}', 'UserAddressesController@destroy');
+
+        // 前台提现列表,提现操作
+        Route::get('withdraw', 'WithdrawsController@index');
+        Route::post('withdraw', 'WithdrawsController@store');
+
+    });
+
+
+});
+
+
+
+</textarea><div class="CodeMirror cm-s-default CodeMirror-focused" style="width: auto; height: 750.9px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 501px; left: 461.781px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true" style="bottom: 0px; width: 18px; pointer-events: none; display: block;"><div style="min-width: 1px; height: 2504px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true" style="height: 18px; pointer-events: none;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 32px; margin-bottom: 0px; border-right-width: 30px; min-height: 2504px; min-width: 583px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 1392px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"><pre class="CodeMirror-line"><span style="padding-right: 0.1px;"><span class="cm-meta">&lt;?php</span></span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 428.781px; top: 672px; height: 16px;">&nbsp;</div></div><div class="CodeMirror-code" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">88</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">89</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//代理商模块</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">90</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'agents'</span>, <span class="cm-string">'AgentsController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">91</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'agents'</span>, <span class="cm-string">'AgentsController@store'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">92</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">patch</span>(<span class="cm-string">'agents/{agents}'</span>, <span class="cm-string">'AgentsController@update'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">93</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//更新用户代理商等级</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">94</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">patch</span>(<span class="cm-string">'agents/user/{id}'</span>, <span class="cm-string">'AgentsController@userAgent'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">95</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    });</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">96</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">});</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">97</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">98</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">99</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment">// 前台用户</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">100</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">Route</span>::<span class="cm-variable">prefix</span>(<span class="cm-string">'index'</span>)<span class="cm-operator">-&gt;</span><span class="cm-keyword">namespace</span>(<span class="cm-string">'Index'</span>)<span class="cm-operator">-&gt;</span><span class="cm-variable">group</span>(<span class="cm-keyword">function</span> () {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">101</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">102</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-comment">// 本地测试模拟登录</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">103</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'login'</span>, <span class="cm-string">'LoginController@login'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">104</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">105</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-comment">// 快递单号查询快递信息</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">106</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'express'</span>, <span class="cm-string">'ExpressController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">107</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">108</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">109</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-comment">//支付回调</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">110</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-variable">Route</span>::<span class="cm-variable">any</span>(<span class="cm-string">'notify'</span>, <span class="cm-string">'OrdersController@notify'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">111</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">112</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    <span class="cm-variable">Route</span>::<span class="cm-variable">middleware</span>(<span class="cm-string">'auth:api'</span>)<span class="cm-operator">-&gt;</span><span class="cm-variable">group</span>(<span class="cm-keyword">function</span> () {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">113</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//下单</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">114</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'order'</span>, <span class="cm-string">'OrderController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">115</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'order'</span>, <span class="cm-string">'OrderController@store'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">116</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'order/{order}'</span>, <span class="cm-string">'OrderController@show'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">117</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'order/{order}/close'</span>, <span class="cm-string">'OrderController@closeOrder'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">118</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'order/{order}/take'</span>, <span class="cm-string">'OrderController@takeOver'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">119</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//申请售后</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">120</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'order/{order}/refund'</span>, <span class="cm-string">'OrderController@applyRefund'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">121</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'order/{order}/review'</span>, <span class="cm-string">'OrderController@review'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">122</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//同意退货退款上传快递凭证</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">123</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'order/{order}/voucher'</span>, <span class="cm-string">'OrderController@voucher'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">124</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">125</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//商品</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">126</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'product'</span>, <span class="cm-string">'ProductController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">127</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'product/{product}'</span>, <span class="cm-string">'ProductController@show'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">128</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'product/{product}/sku'</span>, <span class="cm-string">'ProductController@skuDetail'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">129</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">130</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'category'</span>, <span class="cm-string">'CategoryController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">131</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">132</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">//发起支付</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">133</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'pay'</span>, <span class="cm-string">'OrdersController@pay'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">134</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">135</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">136</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'address'</span>, <span class="cm-string">'UserAddressesController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">137</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">138</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">// 设置收货地址</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">139</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'setAddress'</span>, <span class="cm-string">'UserAddressesController@setting'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">140</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'address/{address}'</span>, <span class="cm-string">'UserAddressesController@show'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">141</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'address'</span>, <span class="cm-string">'UserAddressesController@store'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">142</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">patch</span>(<span class="cm-string">'address/{address}'</span>, <span class="cm-string">'UserAddressesController@update'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">143</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">delete</span>(<span class="cm-string">'address/{address}'</span>, <span class="cm-string">'UserAddressesController@destroy'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">144</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">145</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-comment">// 前台提现列表,提现操作</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">146</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">get</span>(<span class="cm-string">'withdraw'</span>, <span class="cm-string">'WithdrawsController@index'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">147</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">        <span class="cm-variable">Route</span>::<span class="cm-variable">post</span>(<span class="cm-string">'withdraw'</span>, <span class="cm-string">'WithdrawsController@store'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">148</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">149</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    });</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">150</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">151</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">152</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">});</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">153</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">154</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -32px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 23px;">155</div></div><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent; top: 2504px;"></div><div class="CodeMirror-gutters" style="height: 2534px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 31px;"></div></div></div></div>			</div>			<div class="bt-form-submit-btn" style="position:absolute; bottom:0; width:100%">			<button type="button" class="btn btn-danger btn-sm btn-editor-close">关闭</button>			<button id="OnlineEditFileBtn" type="button" class="btn btn-success btn-sm">保存</button>			</div>			</form></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close2" href="javascript:;"></a></span><span class="layui-layer-resize"></span></div></body></html>
