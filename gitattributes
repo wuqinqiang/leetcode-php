@@ -1,8 +1,8 @@
 *.yml linguist-language=PHP
 *.html linguist-language=PHP 
 *.js linguist-language=PHP
-*.xml linguist-language=php
-*.css linguist-language=php
+*.xml linguist-language=PHP
+*.css linguist-language=PHP
 *.md  linguist-language=PHP
 *.jpg  linguist-language=PHP
 *.png  linguist-language=PHP
