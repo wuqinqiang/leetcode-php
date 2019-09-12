@@ -17,7 +17,6 @@
  ### :pencil2:数据结构
  - [线性结构之数组和链表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/数组和链表.md)
  - [线性结构之堆栈](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/堆栈.md)
- - [线性结构之队列](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/队列.md)
  - [线性结构之散列表](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/散列表.md)
  - [数据结构之二叉树1](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/二叉树(1).md)
  - [Leetcode经典二叉树题目集合](https://github.com/wuqinqiang/Lettcode-php/blob/master/数据结构/Leetcode经典二叉树题目集合.md)
@@ -108,8 +107,13 @@
 - [Leetcode134](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/134.md)
 - [Leetcode135](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/135.md)
 - [Leetcode136](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/136.md)
+- [Leetcode137](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/137.md)
+- [Leetcode138](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/139.md)
+- [Leetcode143](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/143.md)
 - [Leetcode144](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/144.md)
 - [Leetcode145](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/145.md)
+- [Leetcode146](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/146.md)
+- [Leetcode147](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/147.md)
 - [Leetcode150](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/150.md)
 ****
 
