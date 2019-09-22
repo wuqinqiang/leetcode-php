@@ -1,10 +1,8 @@
 
 ## :pencil2:Leetcode for PHP 
   
-**当前从事php方面的开发,热爱开源，空余时间花时间学习数据结构和算法，底层核心知识才能决定一个人的深度，佛性刷题，定期更新的日常**
+  **I'm a phper,there is a phenomenon in China's development world,when you are 35 or a few years older.It's hard to find a job related to a development position,or even get laughed at for do so.But abroad,like the developers of those languages,who is not engaged in decades of development work,they never tire of it.I love programming.I enjoyed the development process,even through I'm a nerd.just because I'm a nerd,I should pay more attention to the underlying knowledge,rather than blindly pursue new technology and new framework.Finally,why do you have to sleep for a long time ,and naturally sleep after death**
 ****
-###  人生格言
-**生时何必久睡，死后自然长眠**
 
 ### 联系
 <a href="https://github.com/wuqinqiang/">
@@ -114,6 +112,7 @@
 - [Leetcode145](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/145.md)
 - [Leetcode146](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/146.md)
 - [Leetcode147](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/147.md)
+- [Leetcode148](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/148.md)
 - [Leetcode150](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/150.md)
 ****
 
@@ -122,6 +121,9 @@
 - [Leetcode153](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/153.md)
 - [Leetcode154](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/154.md)
 - [Leetcode155](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/155.md)
+- [Leetcode162](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/162.md)
+- [Leetcode164](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/164.md)
+- [Leetcode165](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/165.md)
 - [Leetcode167](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/167.md)
 - [Leetcode168](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/168.md)
 - [Leetcode169](https://github.com/wuqinqiang/Lettcode-php/blob/master/151-200/169.md)
