@@ -1,9 +1,7 @@
 
 ## :pencil2:Leetcode for PHP 
   
-  **I'm a phper,there is a phenomenon in China's development world,when you are 35 or a few years older.It's hard to find a job related to a development position,or even get laughed at for do so.But abroad,like the developers of those languages,who is not engaged in decades of development work,they never tire of it.I love programming.**
-  
-  **I enjoyed the development process,even through I'm a nerd.just because I'm a nerd,I should pay more attention to the underlying knowledge,rather than blindly pursue new technology and new framework.Finally,my favorite motto is:why do you have to sleep for a long time ,and naturally sleep after death**
+  **why do you have to sleep for a long time ,and naturally sleep after death**
 ****
 
 ### 联系
