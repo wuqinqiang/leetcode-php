@@ -12,8 +12,8 @@
 <a href="https://github.com/wuqinqiang/">
 公众号
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
-爱发电
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/aifa.png" width="200px" height="200px">
+微信(欢迎各位老哥)
+​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.png" width="200px" height="200px">
 ****
 
  
