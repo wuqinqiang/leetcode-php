@@ -102,6 +102,7 @@
 - [Leetcode103](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/103.md)
 - [Leetcode104](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/104.md)
 - [Leetcode105](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/105.md)
+- [Leetcode106](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/106.md)
 - [Leetcode107](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/107.md)
 - [Leetcode108](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/108.md)
 - [Leetcode109](https://github.com/wuqinqiang/Lettcode-php/blob/master/100-150/109.md)
