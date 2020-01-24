@@ -4,15 +4,11 @@
   **why do you have to sleep for a long time ,and naturally sleep after death**
 ****
 
-### 关于我
-
-库里迷,很喜欢打球,虽然打的并不咋么样,喜欢交朋友,交一些有趣的人,有空还可以面基啊!个人微信号 1185079673
-
 ### 联系
 <a href="https://github.com/wuqinqiang/">
 公众号
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
-微信(欢迎各位老哥)
+微信
 ​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.png" width="200px" height="200px">
 ****
 
