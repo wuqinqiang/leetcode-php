@@ -30,7 +30,7 @@
 ****
 
 
- ### :pencil2:leetcode题解以及数据库
+ ### :pencil2:leetcode题解
  
  **0-50**
  - [Leetcode02](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/2.md)
