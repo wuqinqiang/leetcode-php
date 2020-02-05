@@ -25,6 +25,7 @@
  - [冒泡插入选择排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/冒泡插入选择.md)
  - [归并快速排序](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/归并快速排序.md)
  - [二分查找](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/二分查找.md)
+ - [十分好用的二分查找模板](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/十分好用的二分查找模板.md)
  - [动态规划](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/动态规划.md)
  - [LRU](https://github.com/wuqinqiang/Lettcode-php/blob/master/算法/LRU.md)
 ****
