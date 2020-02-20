@@ -65,6 +65,7 @@
  - [Leetcode47](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/47.md)
  - [Leetcode48](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/48.md)
  - [Leetcode49](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/49.md)
+ - [Leetcode50](https://github.com/wuqinqiang/Lettcode-php/blob/master/0-50/50.md)
  ****
   
 **51-100**
