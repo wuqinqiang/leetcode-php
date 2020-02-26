@@ -190,6 +190,7 @@
 - [Leetcode238](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/238.md)
 - [Leetcode234](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/234.md)
 - [Leetcode240](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/240.md)
+- [Leetcode242](https://github.com/wuqinqiang/Lettcode-php/blob/master/201-250/242.md)
 ****
 
 **251-300**
