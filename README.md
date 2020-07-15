@@ -224,9 +224,11 @@
 - [Leetcode374](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/374.md)
 - [Leetcode378](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/378.md)
 - [Leetcode371](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/371.md)
+- [Leetcode392](https://github.com/wuqinqiang/Lettcode-php/blob/master/301-400/392.md)
 ****
 
-**501-600**
+**401-600**
+- [Leetcode441](https://github.com/wuqinqiang/Lettcode-php/blob/master/501-600/441.md)
 - [Leetcode513](https://github.com/wuqinqiang/Lettcode-php/blob/master/501-600/513.md)
 ****
 
