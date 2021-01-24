@@ -5,12 +5,11 @@
 ****
 
 ### 联系
-<a href="https://github.com/wuqinqiang/">
-公众号
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/qrcode_for_gh_c194f9d4cdb1_430.jpg" width="200px" height="200px">
-微信
-​    <img src="https://github.com/wuqinqiang/Lettcode-php/blob/master/images/Wechat.png" width="200px" height="200px">
-****
+![](/images/wechat-qr.png)
+
+
+### 说明
+由于目前工作主要是 golang,我又新起了一个LeetCode-Go-Week项目，- [Leetcode-Go-Week](https://github.com/wuqinqiang/LeetCode-Go-Week),这个项目和此项目的不同点除了是用go实现之外，我会按照tag来进行划分。
 
  
  ### :pencil2:数据结构
