@@ -4,8 +4,7 @@
   **why do you have to sleep for a long time ,and naturally sleep after death**
 ****
 
-### 联系
-![](/images/wechat-qr.png)
+
 
 
 ### 说明
